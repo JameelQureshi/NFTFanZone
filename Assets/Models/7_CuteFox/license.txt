@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hippie Shiba 🌺
+* source:	https://sketchfab.com/3d-models/hippie-shiba-5079178a8b1441808ae8a2186bbc76e7
+* author:	Karolina Renkiewicz (https://sketchfab.com/KarolinaRenkiewicz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hippie Shiba 🌺" (https://sketchfab.com/3d-models/hippie-shiba-5079178a8b1441808ae8a2186bbc76e7) by Karolina Renkiewicz (https://sketchfab.com/KarolinaRenkiewicz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

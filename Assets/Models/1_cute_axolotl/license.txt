@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Axolotl
+* source:	https://sketchfab.com/3d-models/cute-axolotl-e4625a288edf41afab1054a0fa529b3a
+* author:	Felix Yadomi (https://sketchfab.com/felixyadomi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Axolotl" (https://sketchfab.com/3d-models/cute-axolotl-e4625a288edf41afab1054a0fa529b3a) by Felix Yadomi (https://sketchfab.com/felixyadomi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
