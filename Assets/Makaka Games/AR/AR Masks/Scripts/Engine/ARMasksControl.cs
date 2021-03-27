@@ -341,11 +341,11 @@ public class ARMasksControl : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
 
-        //arMasksMediaControl.SaveImageToGallery(
-        //    screenshot,
-        //    "AR Masks",
-        //    "Image.png",
-        //    arMasksTextStatusControl.ShowAndClearWithDelay);
+       // arMasksMediaControl.SaveImageToGallery(
+         //   screenshot,
+           // "AR Masks",
+            //"Image.png",
+            //arMasksTextStatusControl.ShowAndClearWithDelay);
         
         // Memory Control
 

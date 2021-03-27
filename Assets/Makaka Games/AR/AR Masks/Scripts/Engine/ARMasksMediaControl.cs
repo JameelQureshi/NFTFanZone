@@ -64,11 +64,7 @@ public class ARMasksMediaControl : MonoBehaviour
 
     public void PickImageSafely(int maxSize)
     {
-        // Don't attempt to pick media from Gallery/Photos if
-        // another media pick operation is already in progress
-
-
-
+       
     }
 
     /// <summary>
@@ -78,42 +74,8 @@ public class ARMasksMediaControl : MonoBehaviour
     /// </summary>
     private void PickImage(int maxSize)
     {
-//        NativeGallery.Permission permission = NativeGallery.GetImageFromGallery(
-//            (path) =>
-//            {
-
-//#if UNITY_EDITOR
-
-//                path = Path.Combine(
-//                    Directory.GetCurrentDirectory(),
-//                    AssetDatabase.GetAssetPath(imagesForEditorTesting[
-//                        indexImageForEditorTesting++ % imagesForEditorTesting.Length]));
-
-//#endif
-
-//                if (string.IsNullOrEmpty(path))
-//                {
-//                    print("Image Path: NULL");
-//                }
-//                else
-//                {
-//                    print("Image Path: " + path);
-
-//                    // Create Texture from selected image
-//                    Texture2D texture = NativeGallery.LoadImageAtPath(path, maxSize);
-
-//                    OnImagePicked?.Invoke(texture);
-
-//                    if (texture == null)
-//                    {
-//                        print("Couldn't load texture from path: " + path);
-//                    }
-//                }
-//            },
-//            "Select a PNG image", "image/png"
-//        );
-
-//        Debug.Log("Permission result: " + permission);
+      
+            
     }
 
     /// <summary>
@@ -125,71 +87,18 @@ public class ARMasksMediaControl : MonoBehaviour
     //    string filename,
     //    NativeGallery.MediaSaveCallback callbackError = null)
     //{
-    //    //print("Permission result: " + NativeGallery.SaveImageToGallery(
-    //    //    image, album, filename, callbackError).ToString());
+    //    print("Permission result: " + NativeGallery.SaveImageToGallery(
+    //        image, album, filename, callbackError).ToString());
     //}
 
     public void PickVideoSafely()
     {
-        // Don't attempt to pick media from Gallery/Photos if
-        // another media pick operation is already in progress
-
-        //if (NativeGallery.IsMediaPickerBusy())
-        //{
-        //    return;
-        //}
-        //else
-        //{
-        //    PickVideo();
-        //}
+        
     }
 
-       private void PickVideo()
-        {
-    //        NativeGallery.Permission permission = NativeGallery.GetVideoFromGallery(
-    //            (path) =>
-    //            {
+    private void PickVideo()
+    {
+        
 
-    //#if UNITY_EDITOR
-
-    //                path = Path.Combine(
-    //                    Directory.GetCurrentDirectory(),
-    //                    AssetDatabase.GetAssetPath(videosForEditorTesting[
-    //                        indexVideoForEditorTesting++ % videosForEditorTesting.Length]));
-
-    //#endif
-
-    //                if (string.IsNullOrEmpty(path))
-    //                {
-    //                    print("Video Path: NULL");
-
-    //                    OnVideoPicked?.Invoke(path, 0f);
-    //                }
-    //                else
-    //                {
-    //                    print("Video Path: " + path);
-
-    //#if UNITY_EDITOR
-
-    //                    print("Detection of Video Rotation is Not Provided in Editor");
-    //                    print("Test Rotation: " + videoRotationTestInEditor);
-
-    //                    OnVideoPicked?.Invoke(
-    //                        path,
-    //                        videoRotationTestInEditor);
-
-    //#else
-
-    //                    OnVideoPicked?.Invoke(
-    //                        path,
-    //                        NativeGallery.GetVideoProperties(path).rotation);
-
-    //#endif
-
-    //                }
-    //            },
-    //            "Select a video");
-
-    //        print("Permission result: " + permission);
-       }
+    }
 }
