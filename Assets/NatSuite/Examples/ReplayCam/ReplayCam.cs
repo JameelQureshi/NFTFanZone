@@ -90,13 +90,13 @@ namespace NatSuite.Examples {
             {
                 //NatShare.Share(ss);
 
-                string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
+                string filePath = Path.Combine(Application.persistentDataPath, "NFT_" + GalleryHandler.TotalImageInGallery++ + ".png");
                 File.WriteAllBytes(filePath, ss.EncodeToPNG());
-
+                Debug.Log("Image Saved at: "+filePath);
                 // To avoid memory leaks
                 Destroy(ss);
                 Handheld.Vibrate();
-                new NativeShare().AddFile(filePath).Share();
+                //new NativeShare().AddFile(filePath).Share();
             }
             catch (Exception e)
             {
@@ -107,7 +107,8 @@ namespace NatSuite.Examples {
             // To avoid memory leaks
             Destroy(ss);
             canvas.enabled = true;
-           
+
+   
         }
     }
 }
